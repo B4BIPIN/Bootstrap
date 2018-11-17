@@ -1,0 +1,136 @@
+body {
+    font-family: "proxima-nova-soft",Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+.header {
+    background-color: #92C8F2;
+    height: 100px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px;
+}
+.header * {
+    color: white;
+}
+.row {
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo a img {
+    height: 45px;
+    width: 90px;
+}
+.navigation ul li a:hover {
+ background-color: transparent;
+    color: #3498DB;
+}
+.email a i{
+    padding: 10px;
+    font-size: 150%;
+    font-family: "proxima-nova-soft",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: 600;
+}
+/* Main */
+.mainImg a img{
+    width: 100%;
+}
+.mainImg {
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.mainImg div {
+    position: absolute;
+    top: 10%;
+}
+.mainImg div button {
+    margin-top: 12%;
+}
+.mainImg div  h1 ,h3{
+    font-weight: bold;
+}
+
+.myQuoteButton {
+    /* border-radius: inherit !important; */
+    /* border-radius: 30px !important; */
+    /* apply id to root component and use like as # */
+    border-radius: 60px ;
+}
+.myQuoteButton h3 {
+    padding:0px 20px;
+}
+.mainSection1 {
+    text-align: center;
+    padding: 60px 20px;
+    width: 100%;
+}
+
+.mainSection1 h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: start;
+    color: #3498DB;
+}
+.mainSection1 p {
+    font-size: 140%;
+    text-align: start;
+    line-height: 2em;
+    color: #4A535A;
+}
+.mainSection1 .row {
+    padding: 20px;
+}
+.mainSection2 {
+    background-color: #6BB3EB;
+    color: white;
+    text-align: center;
+}
+.mainSection2 .row {
+    padding: 10px 0px;
+}
+.mainSection2 .row div h1 {
+font-size: 4em;
+font-weight: bold;
+text-align: center;
+}
+.mainSection2 .row div h4 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.mainSection2 .row div div p{
+    font-size: 120%;
+    text-align: start;
+    font-weight: bold;
+    padding-top: 1em;
+    line-height: 1.7em;
+}
+.mainSection2 .row div div span {
+    font-size:20px;
+}
+.mainSection2 .row h1 {
+    margin: 20px;
+}
+.mainSection4 {
+    background: #278DDF;
+    text-align: start;
+}
+.mainSection4 .mainSection41 {
+    text-align: center;
+} 
+.mainSection4 ul {
+    list-style: none;
+}
+.mainSection42 div h2{
+    text-align: center;
+}
+.mainSection43 div h2 {
+    text-align: center;
+}
+.mainSection42 div {
+    background: white;
+}
+.mainSection43 div {
+    background: white;
+}
